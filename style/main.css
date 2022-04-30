@@ -1,3 +1,36 @@
+:root{
+    --laranja:#ffa100;
+    --cinza:  #1d1c1b ;
+}
 body{
-    background-color: #e7e4de;
+    background-color: var(--cinza);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--laranja);
+    font-family: 'Arial', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav{
+    margin-right: 5px;
+}
+header nav a{
+    color: #aaa;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+header nav a:hover{
+    color: #fff;
 }
