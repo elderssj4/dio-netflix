@@ -1,0 +1,49 @@
+.popup{
+    display: flex;
+    text-align: center;
+}
+
+.popup img{
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+} 
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+.criador{ 
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.criador p{ 
+    margin-top: 5px;
+    
+}
+
+.criador-2{
+    margin-left: 40px;
+}
+
+.ano{
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.classificacao{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.genero{
+    margin-top:15px;
+}
